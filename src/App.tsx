@@ -1,13 +1,14 @@
 // import { Todo } from "./components/Todo"
 
-import ContactForm from "./components/ContactForm"
+import ShoppingList from "./components/ShoppingList"
+
 
 
 
 const App = () => {
   return (
     <div className="flex items-center justify-center p-40">
-     <ContactForm/>
+      <ShoppingList/>
     </div>
 
   )
