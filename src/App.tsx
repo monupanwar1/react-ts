@@ -1,7 +1,7 @@
 // import { Todo } from "./components/Todo"
 
-import CounterEffect from "./components/CounterEffect"
-import FetchDataEffect from "./components/FetchDataEffect"
+import UserProfile from "./components/UserProfile"
+
 
 
 
@@ -10,9 +10,9 @@ import FetchDataEffect from "./components/FetchDataEffect"
 const App = () => {
   return (
     <div className="flex items-center justify-center p-40">
+      <UserProfile/>
      
-      <FetchDataEffect/>
-      <CounterEffect/>
+     
       
 
     </div>

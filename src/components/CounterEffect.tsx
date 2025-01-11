@@ -4,11 +4,11 @@ const CounterEffect = () => {
     const[count,setCount]=useState(0);
 
       useEffect(()=>{
-        document.title =`cout:${count}`
+        // document.title =`cout:${count}`
       },[count]);
 
       const handldeClick = ()=>{
-        setCount((prev)=>prev+1);
+        setCount((prev)=>prev+1); 
       }
 
   return (
