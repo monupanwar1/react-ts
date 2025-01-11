@@ -2,6 +2,7 @@
 
 import InputCopy from "./components/InputCopy"
 import ShoppingList from "./components/ShoppingList"
+import Switcher from "./components/Switcher"
 import TodoList from "./components/TodoList"
 
 
@@ -13,7 +14,7 @@ const App = () => {
       <ShoppingList/>
       
       <TodoList/>
-      <InputCopy/>
+      <Switcher/>
       
 
     </div>
