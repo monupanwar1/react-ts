@@ -1,7 +1,7 @@
 import useFetch from "./CustomHooks";
 
 const Home = () => {
-  const data = useFetch("https://jsonplaceholder.typicode.com/todos");
+  const[data] = useFetch("https://jsonplaceholder.typicode.com/todos");
 
   return (
     <div className="bg-white rounded-md border-2 p-4">

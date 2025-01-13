@@ -8,11 +8,12 @@ import Home from "./components/Home"
 
 
 
+
 const App = () => {
   return (
     <div className="flex items-center justify-center p-40">
       <Home/>
-     
+   
      
       
 
